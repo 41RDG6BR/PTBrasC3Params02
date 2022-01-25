@@ -1,0 +1,88 @@
+{
+  "aeo": {
+    "serviceUrl": "https://www.senocwb.com/senoportal/rest/services/Petrobras/Mapa_SEAL_Pocos/FeatureServer/1/",
+    "codFieldSeq": "sequencial",
+    "codFieldInst": "instalacao",
+    "sources": [
+      {
+        "layerId": "Mapa_SEAL_Pocos_1472",
+        "url": "https://www.senocwb.com/senoportal/rest/services/Petrobras/Mapa_SEAL_Pocos/FeatureServer/1/",
+        "name": "UN-SEAL Aeo",
+        "placeholder": "Aeo",
+        "searchFields": [
+          "sequencial"
+        ],
+        "displayField": "sequencial",
+        "exactMatch": false,
+        "searchInCurrentMapExtent": false,
+        "panToScale": false,
+        "zoomScale": null,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "query"
+      },
+      {
+        "url": "https://www.senocwb.com/senoportal/rest/services/Petrobras/Mapa_SEAL_Pocos/FeatureServer/1/",
+        "name": "UN-SEAL Aeo",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Aeo",
+        "searchFields": [
+          "instalacao"
+        ],
+        "displayField": "instalacao",
+        "countryCode": "",
+        "panToScale": false,
+        "zoomScale": null,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "type": "locator"
+      }
+    ]    
+  },
+  "pocos": {
+    "serviceUrl": "https://www.senocwb.com/senoportal/rest/services/Petrobras/Mapa_SEAL_Pocos/FeatureServer/0/",
+    "codFieldNameCamp": "camp_nm_ca",
+    "codFieldNamePoco": "poco_nm_co",
+    "outFields": ["camp_nm_ca", "clop_nm_cl", "poco_nm_co", "poco_md_la", "poco_md_lo"]
+  },
+  "propriedades": {
+    "serviceUrl": "https://www.senocwb.com/senoportal/rest/services/Petrobras/Mapa_SEAL_Pocos/FeatureServer/2/",
+    "codFieldSeq": "sequencial",
+    "codFieldDen": "denomin"
+  },
+  "sources": [
+    {
+      "layerId": "Mapa_SEAL_Pocos_1472",
+      "url": "https://www.senocwb.com/senoportal/rest/services/Petrobras/Mapa_SEAL_Pocos/FeatureServer/2/",
+      "name": "UN-SEAL Propriedades",
+      "placeholder": "Proprietario",
+      "searchFields": [
+        "sequencial"
+      ],
+      "displayField": "sequencial",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "url": "https://www.senocwb.com/senoportal/rest/services/Petrobras/Mapa_SEAL_Pocos/FeatureServer/2/",
+      "name": "UN-SEAL Propriedades",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Proprietario",
+      "searchFields": [
+        "denomin"
+      ],
+      "displayField": "denomin",
+      "countryCode": "",
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "locator"
+    }
+  ]
+}
